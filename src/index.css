@@ -3,4 +3,10 @@
 @tailwind utilities;
 
 
+:root {
+    font-family: 'Poppins', sans-serif;
+}
 
+body {
+    background: white;
+}
