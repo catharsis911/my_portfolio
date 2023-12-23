@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         'violetColor': '#8b18e9',
-        'greyIsh': '#f1f4f8',
+        'greyIsh': '#EDF7FA',
         'textColor': '#252b36'
       }
     },

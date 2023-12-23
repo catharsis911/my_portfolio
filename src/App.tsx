@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-     <div className='w-[85%] m-auto bg-white'>
+     <div className='w-[100%] m-auto bg-white'>
       <Navbar/>
       <Routes>
        <Route path='/' element={ <About/> }/>
