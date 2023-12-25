@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 function About() {
@@ -18,7 +19,7 @@ function About() {
           <p className='text-[22px] leading-12 font-normal my-[1rem]'>curious - hardworking - purposeful</p>
           <p className='text-[18px] leading-7 font-normal my-[1rem]'>I have completed a large and detailed course on web development, which includes sections such as basic layout, JavaScript, and different frameworks. I am currently studying TypeScript.</p>
           <p className='text-[18px] leading-7 font-normal my-[1rem]'>Since high school, I have been madly in love with information technology and dreamed of becoming a developer. I can't wait to apply my experience and contribute to the success of the team that likes my portfolio!</p>
-          <p className='text-[18px] leading-7 font-normal my-[1rem]'>My projects completed during my studies can be watched <a href='#projects' className='text-violetColor'> here.</a></p>
+          <p className='text-[18px] leading-7 font-normal my-[1rem]'>My projects completed during my studies can be watched <Link to="/projects" className='text-violetColor'>here.</Link></p>
         </div>
         
 
