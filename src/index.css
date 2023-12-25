@@ -15,7 +15,9 @@ li {
     list-style: none;
     cursor: pointer;
     position: relative;
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 700;
 }
 
 li:hover::before {
