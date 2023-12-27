@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Footer from '../Components/Footer'
 
 
 function About() {
@@ -24,6 +25,7 @@ function About() {
         
 
       </section>
+      <Footer/>
     </div>
   )
 }
