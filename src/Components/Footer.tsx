@@ -9,7 +9,7 @@ Footer() {
     <div className='footer block'>
       <div className='container max-w-[430px] flex mx-auto my-10 items-center justify-around'>
         <div>
-         <a href=''><MdOutlineEmail className="text-[50px] hover:text-violetColor" /></a>
+         <a href=""><MdOutlineEmail className="text-[50px] hover:text-violetColor" /></a>
         </div>
         <div>
         <a href=''><PiTelegramLogo className="text-[50px] hover:text-violetColor"/></a>
