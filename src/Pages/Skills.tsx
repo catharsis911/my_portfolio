@@ -16,7 +16,7 @@ function Skills() {
     <div id='skills' className='block'>
     
       <section className='flex flex-wrap max-w-[730px] justify-between items-center py-20 px-10 mx-auto gap-10'>
-        <div id='js' className='max-w-[300px] flex justify-center py-8 border-[1px] border-[#ededed] rounded-xl shadow-md'>
+        <div id='js' className='w-[300px] flex justify-center py-8 border-[1px] border-[#ededed] rounded-xl shadow-md'>
           <div className='block'>
             <IoLogoJavascript className="text-[50px] mb-3 text-violetColor mx-auto"/>
             <h2 className='text-[20px] mx-auto font-bold'>JavaScript</h2>
