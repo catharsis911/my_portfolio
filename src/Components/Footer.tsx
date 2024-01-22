@@ -1,10 +1,9 @@
-import React from 'react'
+
 import { MdOutlineEmail } from 'react-icons/md'
 import { PiTelegramLogo } from "react-icons/pi"
 import { RiInstagramLine } from "react-icons/ri"
 
-function 
-Footer() {
+const Footer = () => {
   return (
     <div className='footer block'>
       <div className='container max-w-[430px] flex mx-auto my-10 items-center justify-around'>

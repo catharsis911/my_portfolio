@@ -1,9 +1,9 @@
-import React from 'react'
+
 import { Link } from 'react-router-dom'
 import Footer from '../Components/Footer'
 
 
-function About() {
+const About = () => {
   return (
     <div id='about' className='block'>
       <section className='max-w-[930px] container flex flex-wrap-reverse justify-between items-center py-20 mx-auto'>

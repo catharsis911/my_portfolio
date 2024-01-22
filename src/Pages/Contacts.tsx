@@ -1,6 +1,6 @@
-import React from 'react'
 
-function Contacts() {
+
+const Contacts = () => {
   return (
     <div>Contacts</div>
   )

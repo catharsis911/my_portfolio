@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Footer from '../Components/Footer'
 import { IoLogoJavascript } from "react-icons/io"
 import { TbFileTypeCss } from "react-icons/tb"

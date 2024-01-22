@@ -1,7 +1,5 @@
-import { useState } from 'react'
+
 import {Route, Routes} from 'react-router-dom'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import Navbar from './Components/Navbar'
 import About from './Pages/About'
 import Skills from './Pages/Skills'
@@ -9,7 +7,6 @@ import Projects from './Pages/Projects'
 import Contacts from './Pages/Contacts'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
