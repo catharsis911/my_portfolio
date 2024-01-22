@@ -20,6 +20,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           folder: dist
+          branch: gh-pages
           # Remove previous build files
           clean: true
 permissions:
