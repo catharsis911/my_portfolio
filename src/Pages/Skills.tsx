@@ -9,7 +9,7 @@ import { SiVite } from "react-icons/si"
 import { BsFillBootstrapFill } from "react-icons/bs"
 import { SiTailwindcss } from "react-icons/si"
 import { FaGithub } from "react-icons/fa"
-import { SiNpm } from "react-icons/si"
+import { SiTypescript } from "react-icons/si"
 
 function Skills() {
   return (
@@ -73,8 +73,8 @@ function Skills() {
         </div>
         <div id='npm' className='w-[300px] flex justify-center py-8 border-[1px] border-[#ededed] rounded-xl shadow-md'>
           <div className='block'>
-            <SiNpm className="text-[50px] mb-3 text-violetColor mx-auto"/>
-            <h2 className='text-[20px] mx-auto font-bold'>npm</h2>
+            <SiTypescript className="text-[50px] mb-3 text-violetColor mx-auto"/>
+            <h2 className='text-[20px] mx-auto font-bold'>TypeScript</h2>
           </div>
         </div>
       </section>
