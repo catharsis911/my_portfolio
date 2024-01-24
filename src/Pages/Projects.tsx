@@ -15,7 +15,7 @@ function Projects() {
         </div>
 
         <div className='bg-greyIsh flex justify-start p-8  my-14'>
-         <a href='https://testproject-eta-sage.vercel.app/' className='hover:cursor-pointer w-[32%]'><img className='' src={'mindMatch.jpg'}/></a>
+         <a href='https://testproject-eta-sage.vercel.app/'  target='_blanc' className='hover:cursor-pointer w-[32%]'><img className='' src={'mindMatch.jpg'}/></a>
          <div className='textSection block ml-10 w-[52%]'>
           <h1 className='text-[30px] font-bold'>Job searching website</h1>
           <p className='text-[18px] leading-7 font-normal'>This is my first app written in <b>React</b> using technologies such as <b>components</b>, <b>Router</b>, <b>TailwindCss</b>.</p>
@@ -24,7 +24,7 @@ function Projects() {
         </div>
 
         <div className='bg-greyIsh flex justify-start p-8  my-14'>
-         <a href='https://vinyl-project-six.vercel.app/' className='hover:cursor-pointer w-[32%]'><img className='' src={'catalog.jpg'}/></a>
+         <a href='https://vinyl-project-six.vercel.app/'  target='_blanc' className='hover:cursor-pointer w-[32%]'><img className='' src={'catalog.jpg'}/></a>
          <div className='textSection block ml-10 w-[52%]'>
           <h1 className='text-[30px] font-bold'>Vinyl catalog</h1>
           <p className='text-[18px] leading-7 font-normal'>An interactive vinyl catalog written in <b>TypeScript</b> using <b>React</b>.</p>
