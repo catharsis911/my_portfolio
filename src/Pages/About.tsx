@@ -5,7 +5,7 @@ import Footer from '../Components/Footer'
 
 const About = () => {
   return (
-    <div id='about' className='block'>
+    <div id='about' className='block px-2'>
       <section className='max-w-[930px] container flex flex-wrap-reverse justify-between items-center py-20 mx-auto'>
         
          <h2 className='caption text-[2.6rem] max-w-[26rem] leading-12 font-bold'>Hi! I am Olya,  

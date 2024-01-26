@@ -3,7 +3,7 @@ import Footer from '../Components/Footer'
 
 function Projects() {
   return (
-    <div id='projects'>
+    <div id='projects px-2'>
       <div className='block max-w-[930px] mx-auto'>
        <div className='bg-greyIsh flex justify-start p-8  my-14'>
          <a href='https://catharsis911.github.io/first_portfolio/'  target='_blanc' className='hover:cursor-pointer w-[32%]'><img className='' src={'firstportfolio.PNG'}/></a>

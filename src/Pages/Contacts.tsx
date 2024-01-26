@@ -7,12 +7,12 @@ import { FaGithub } from "react-icons/fa"
 const Contacts = () => {
   return (
     <div id="contacts" className="block">
-      <section className="block">
+      <section className="block  px-2">
        <IoIosContacts className="mt-11 mb-9 text-[60px] text-violetColor mx-auto" />
        <h2 className="text-[2.6rem] font-bold tracking-tight text-center">CONTACT ME</h2>
        <h3 className="text-[1.5rem] mb-11 text-gray-500 tracking-tight text-center">Get in toutch</h3>
       </section>
-      <section className="block bg-greyIsh py-11">
+      <section className="block bg-greyIsh py-11 px-2">
        <div id="mail" className="flex mx-auto p-10 max-w-[730px] border-y-white border-y-[7px] justify-between items-center">
         <div>
         <CiMail className="text-[80px]"/>
