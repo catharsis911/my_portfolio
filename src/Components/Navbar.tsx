@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className='header flex justify-center items-center bg-greyIsh h-44 px-2'>
       <div className='container max-w-[930px]'>
-        <nav className='menu flex gap-8 justify-end'>
+        <nav className='menu flex md:gap-8 gap-6 md:justify-end justify-center'>
          <Link to="/"><li className='menuList hover:text-violetColor'>About</li></Link>
          <Link to="/skills"><li className='menuList hover:text-violetColor'>Skills</li></Link>
          <Link to="/projects"><li className='menuList hover:text-violetColor'>Projects</li></Link>
