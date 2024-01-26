@@ -12,14 +12,14 @@ const Contacts = () => {
        <h2 className="md:text-[2.6rem] text-[2.2rem] font-bold tracking-tight text-center">CONTACT ME</h2>
        <h3 className="md:text-[1.5rem] text-[1.1rem] mb-11 text-gray-500 tracking-tight text-center">Get in toutch</h3>
       </section>
-      <section className="block bg-greyIsh py-11 px-2">
-       <div id="mail" className="flex mx-auto p-10 max-w-[730px] border-y-white border-y-[7px] justify-between items-center">
+      <section className="block bg-greyIsh py-11 md:px-2 px-0">
+       <div id="mail" className="flex mx-auto md:p-10 p-5 max-w-[730px] border-y-white border-y-[7px] justify-between items-center">
         <div>
         <CiMail className="md:text-[80px] text-[70px]"/>
         </div>
-        <div className="block sm:mr-40 mr-35">
-         <h2 className="md:text-[1.5rem] text-[1.3rem] mt-1 ml-10 font-bold">Email</h2>
-         <h3 className="md:text-[1rem] text-[0.8rem] ml-10 text-gray-500">murenkoforgugl@gmail.com</h3>
+        <div className="block sm:mr-40 mr-35 md:ml-10 ml-[0px]">
+         <h2 className="md:text-[1.5rem] text-[1.3rem] mt-1 font-bold">Email</h2>
+         <h3 className="md:text-[1rem] text-[0.8rem] text-gray-500">murenkoforgugl@gmail.com</h3>
         </div>
         <div className="">
           <button className="bg-violetColor rounded-lg md:p-3 p-2 hover:bg-violet-400 transition-all">
@@ -28,13 +28,13 @@ const Contacts = () => {
         </div>
        </div>
 
-       <div id="inst" className="flex mx-auto p-10 max-w-[730px] border-y-white border-y-[7px] justify-between items-center mt-4">
+       <div id="inst" className="flex mx-auto md:p-10 p-5 max-w-[730px] border-y-white border-y-[7px] justify-between items-center mt-4">
         <div>
         <CiInstagram className="md:text-[80px] text-[70px]"/>
         </div>
-        <div className="block sm:mr-40 mr-35">
-         <h2 className="md:text-[1.5rem] text-[1.3rem] mt-1 ml-10 font-bold">Instagram</h2>
-         <h3 className="md:text-[1rem] text-[0.8rem] ml-10 text-gray-500">@olyanovawe</h3>
+        <div className="block sm:mr-40 mr-35 md:ml-10 ml-[-60px]">
+         <h2 className="md:text-[1.5rem] text-[1.3rem] mt-1  font-bold">Instagram</h2>
+         <h3 className="md:text-[1rem] text-[0.8rem]  text-gray-500">@olyanovawe</h3>
         </div>
         <div className="">
           <button className="bg-violetColor rounded-lg md:p-3 p-2 md:px-8 px-6 hover:bg-violet-400 transition-all">
@@ -43,13 +43,13 @@ const Contacts = () => {
         </div>
        </div>
 
-       <div id="telegram" className="flex mx-auto p-10 max-w-[730px] border-y-white border-y-[7px] justify-between items-center mt-4">
+       <div id="telegram" className="flex mx-auto md:p-10 p-5 max-w-[730px] border-y-white border-y-[7px] justify-between items-center mt-4">
         <div>
         <PiTelegramLogoThin className="md:text-[80px] text-[70px]"/>
         </div>
-        <div className="block sm:mr-40 mr-35">
-         <h2 className="md:text-[1.5rem] text-[1.3rem] mt-1 ml-10 font-bold">Telegram</h2>
-         <h3 className="md:text-[1rem] text-[0.8rem] ml-10 text-gray-500">@catisdead</h3>
+        <div className="block sm:mr-40 mr-35  md:ml-10 ml-[-70px]">
+         <h2 className="md:text-[1.5rem] text-[1.3rem] mt-1 font-bold">Telegram</h2>
+         <h3 className="md:text-[1rem] text-[0.8rem] text-gray-500">@catisdead</h3>
         </div>
         <div className="">
           <button className="bg-violetColor rounded-lg md:p-3 p-2 md:px-6 px-5 hover:bg-violet-400 transition-all">
@@ -58,13 +58,13 @@ const Contacts = () => {
         </div>
        </div>
 
-       <div id="github" className="flex mx-auto p-10 max-w-[730px] border-y-white border-y-[7px] justify-between items-center mt-4">
+       <div id="github" className="flex mx-auto md:p-10 p-5 max-w-[730px] border-y-white border-y-[7px] justify-between items-center mt-4">
         <div>
         <FaGithub className="md:text-[80px] text-[70px]"/>
         </div>
-        <div className="block sm:mr-40 mr-35">
-         <h2 className="md:text-[1.5rem] text-[1.3rem] mt-1 ml-10 font-bold">Github</h2>
-         <h3 className="md:text-[1rem] text-[0.8rem] ml-10 text-gray-500">catharsis911</h3>
+        <div className="block sm:mr-40 mr-35  md:ml-10 ml-[-80px]">
+         <h2 className="md:text-[1.5rem] text-[1.3rem] mt-1 font-bold">Github</h2>
+         <h3 className="md:text-[1rem] text-[0.8rem] text-gray-500">catharsis911</h3>
         </div>
         <div className="">
           <button className="bg-violetColor rounded-lg md:p-3 p-2 md:px-14 px-10 hover:bg-violet-400 transition-all">
