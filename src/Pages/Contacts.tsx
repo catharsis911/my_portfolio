@@ -26,7 +26,7 @@ const Contacts = () => {
         </div>
         <div>
         <button className="bg-violetColor rounded-lg md:p-3 p-2 md:px-14 px-10 hover:bg-violet-400 transition-all">
-            <a href="https://murenkoforgugl@gmail.com"  target='_blanc' className="text-white md:text-[1.5rem] text-[1.rem]">Go</a>
+            <a href="mailto:murenkoforgugl@gmail.com"  target='_blanc' className="text-white md:text-[1.5rem] text-[1.rem]">Go</a>
           </button>
           </div>
         </div>
