@@ -11,7 +11,7 @@ const About = () => {
          <h2 className='caption sm:text-[2.6rem] text-[1.8rem] sm:max-w-[26rem] max-w-[16rem] leading-12 font-bold xl:my-3 my-0'>Hi! I am Olya,  
           <span className='text-violetColor'> Junior</span> Frontend Developer
          </h2>
-         <a download={'Alena.Olga.Murenko'}><button className='bg-violetColor p-3 text-white rounded-lg mt-3'>Download Resume</button></a>
+         <a><button className='bg-violetColor p-3 text-white rounded-lg mt-3'>Download Resume</button></a>
          </div>
          <img src={'img.my.jpg'} className='md:w-[20rem] w-[10rem] md:h-[20rem] h-[10rem] rounded-full'/>
         
