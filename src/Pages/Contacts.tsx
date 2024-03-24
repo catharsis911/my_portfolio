@@ -1,6 +1,5 @@
 import { IoIosContacts } from "react-icons/io"
 import { CiMail } from "react-icons/ci"
-import { CiInstagram } from "react-icons/ci"
 import { PiTelegramLogoThin } from "react-icons/pi"
 import { FaGithub } from "react-icons/fa"
 
@@ -32,22 +31,6 @@ const Contacts = () => {
         </div>
        </div>
 
-       <div id="inst" className="flex mx-auto md:p-10 p-5 max-w-[730px] border-y-white border-y-[7px] justify-between items-center mt-4">
-        <div className="md:mr-11 mr-7">
-        <CiInstagram className="md:text-[80px] text-[70px]"/>
-        </div>
-        <div className="flex justify-between grow">
-        <div className="block">
-         <h2 className="md:text-[1.5rem] text-[1.3rem] mt-1  font-bold">Instagram</h2>
-         <h3 className="md:text-[1rem] text-[0.8rem]  text-gray-500">@olyanovawe</h3>
-        </div>
-        <div className="">
-          <button className="bg-violetColor rounded-lg md:p-3 p-2 md:px-8 px-6 hover:bg-violet-400 transition-all">
-            <a href="https://www.instagram.com/olyanowave?igsh=Y3p5NHhkaWg0MGds&utm_source=qr"  target='_blanc' className="text-white md:text-[1.5rem] text-[1.rem]">DM me</a>
-          </button>
-        </div>
-        </div>
-       </div>
 
        <div id="telegram" className="flex mx-auto md:p-10 p-5 max-w-[730px] border-y-white border-y-[7px] justify-between items-center mt-4">
         <div className="md:mr-11 mr-7">
