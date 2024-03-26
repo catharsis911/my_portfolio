@@ -60,7 +60,7 @@ const Contacts = () => {
          <h3 className="md:text-[1rem] text-[0.8rem] text-gray-500">catharsis911</h3>
         </div>
         <div className="">
-          <button className="bg-violetColor rounded-lg md:p-3 p-2 md:px-14 px-10 hover:bg-violet-400 transition-all">
+          <button className="bg-violetColor rounded-lg md:py-3 py-2 md:px-14 px-10 hover:bg-violet-400 transition-all">
             <a href="https://github.com/catharsis911"  target='_blanc' className="text-white md:text-[1.5rem] text-[1.rem]">Go</a>
           </button>
         </div>
@@ -77,7 +77,7 @@ const Contacts = () => {
          <h3 className="md:text-[1rem] text-[0.8rem] text-gray-500">+18255213015</h3>
         </div>
         <div className="">
-          <button className="bg-violetColor rounded-lg md:p-3 p-2 md:px-14 px-19 hover:bg-violet-400 transition-all">
+          <button className="bg-violetColor rounded-lg md:py-3 py-2 md:px-14 px-10 hover:bg-violet-400 transition-all">
             <a href="tel:+18255213015" target='_blanc' className="text-white md:text-[1.5rem] text-[1.rem]">Call</a>
           </button>
         </div>
