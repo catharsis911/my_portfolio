@@ -1,7 +1,7 @@
 
 import { MdOutlineEmail } from 'react-icons/md'
 import { PiTelegramLogo } from "react-icons/pi"
-import { RiInstagramLine } from "react-icons/ri"
+import { FiPhoneCall } from "react-icons/fi";
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
         <a href='https://t.me/catisdead' target='_blanc'><PiTelegramLogo className="md:text-[50px] text-[40px] hover:text-violetColor transition-all duration-1000"/></a>
         </div>
         <div>
-         <a href='https://www.instagram.com/olyanowave?igsh=Y3p5NHhkaWg0MGds&utm_source=qr'  target='_blanc'><RiInstagramLine className="md:text-[50px] text-[40px] hover:text-violetColor transition-all duration-1000"/></a>
+         <a href="tel:+18255213015"  target='_blanc'><FiPhoneCall className="md:text-[45px] text-[35px] hover:text-violetColor transition-all duration-1000"/></a>
         </div>
       </div>
     </div>
