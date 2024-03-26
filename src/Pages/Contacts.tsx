@@ -2,6 +2,7 @@ import { IoIosContacts } from "react-icons/io"
 import { CiMail } from "react-icons/ci"
 import { PiTelegramLogoThin } from "react-icons/pi"
 import { FaGithub } from "react-icons/fa"
+import { SlPhone } from "react-icons/sl"
 
 const Contacts = () => {
   return (
@@ -61,6 +62,23 @@ const Contacts = () => {
         <div className="">
           <button className="bg-violetColor rounded-lg md:p-3 p-2 md:px-14 px-10 hover:bg-violet-400 transition-all">
             <a href="https://github.com/catharsis911"  target='_blanc' className="text-white md:text-[1.5rem] text-[1.rem]">Go</a>
+          </button>
+        </div>
+        </div>
+       </div>
+
+       <div id="phone" className="flex mx-auto md:p-10 p-5 max-w-[730px] border-y-white border-y-[7px] justify-between items-center mt-4">
+        <div className="md:mr-11 mr-7">
+        <SlPhone className="md:text-[70px] text-[50px]"/>
+        </div>
+        <div className="flex justify-between grow">
+        <div className="block">
+         <h2 className="md:text-[1.5rem] text-[1.3rem] font-bold">Phone number</h2>
+         <h3 className="md:text-[1rem] text-[0.8rem] text-gray-500">+18255213015</h3>
+        </div>
+        <div className="">
+          <button className="bg-violetColor rounded-lg md:p-3 p-2 md:px-14 px-19 hover:bg-violet-400 transition-all">
+            <a href="tel:+18255213015" target='_blanc' className="text-white md:text-[1.5rem] text-[1.rem]">Call</a>
           </button>
         </div>
         </div>

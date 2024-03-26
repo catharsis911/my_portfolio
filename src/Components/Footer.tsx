@@ -1,7 +1,7 @@
 
 import { MdOutlineEmail } from 'react-icons/md'
 import { PiTelegramLogo } from "react-icons/pi"
-import { FiPhoneCall } from "react-icons/fi";
+import { FiPhoneCall } from "react-icons/fi"
 
 const Footer = () => {
   return (
