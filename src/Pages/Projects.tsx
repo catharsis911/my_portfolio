@@ -7,7 +7,7 @@ function Projects() {
       <div className='block max-w-[930px] mx-auto'>
 
       <div className='bg-greyIsh flex justify-start p-8  my-14'>
-      <a href='#'  className=' w-[32%]'><img alt='HiConf' src={'hiconf.jpg'}/></a>
+      <a href='http://194.67.110.20:3000/'  className=' w-[32%]'><img alt='HiConf' src={'hiconf.jpg'}/></a>
          <div className='textSection block ml-10 w-[52%]'>
           <h1 className='md:text-[25px] text-[16px] font-bold'>"HiConf" - scientific conferences website. (In development)</h1>
           <p className='md:text-[15px] text-[12px] leading-7 font-normal'>The “HiConf” website is designed for scientific conferences. It created using the <b>Vite TypeScript</b> and a lot of libraries including <b>React</b>, <b>Tailwind</b>, <b>TanStack React Query</b>, <b>Axios</b>, <b>Jotai</b>, <b>React icons</b>, <b>React router dom</b>. It includes the functionality of user registration and data storage on the server.</p>
